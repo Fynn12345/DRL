@@ -1,5 +1,5 @@
 # ignore all tex stuff except the tex and pdf
-
+**/tex_files/*
 !*.tex
 !*.png
 !*.pdf
