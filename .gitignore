@@ -3,3 +3,5 @@
 !*.tex
 !*.png
 !*.pdf
+*.pyc
+*__pycache__/
