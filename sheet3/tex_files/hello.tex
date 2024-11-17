@@ -1,0 +1,108 @@
+\documentclass[12pt, a4paper,DIV=12, bibliography=totocnumbered]{scrartcl}
+\usepackage[ngerman]{babel}  
+\usepackage[utf8]{inputenc}  
+\usepackage[dvipsnames]{xcolor}
+\usepackage{colortbl}
+\usepackage{enumitem}
+\usepackage{lmodern}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{lipsum}
+\usepackage{float}
+\usepackage{amsmath}
+%\usepackage{upgreek}
+\usepackage{framed,color}
+%\usepackage{geometry}
+%\usepackage[onehalfspacing]{setspace}
+\usepackage{siunitx}
+\sisetup{detect-weight=true, detect-family=true, locale=DE,range-phrase={\,\text{bis}\,}, list-final-separator={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode=symbol-or-fraction}
+\usepackage{wrapfig}
+\usepackage{pdfpages}
+%\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{tikz-qtree}
+\usetikzlibrary{shapes.misc, positioning}
+\usetikzlibrary{arrows.meta,bending}
+
+\newcommand{\ASSNR}{3}
+\newcommand{\AuthorONE}{Kamil Bannasch}
+\newcommand{\MatNoONE}{405231}
+\newcommand{\AuthorTWO}{Fynn Castor}
+\newcommand{\MatNoTWO}{540055}
+\newcommand{\AuthorTHREE}{Eik Weishaar}
+\newcommand{\MatNoTHREE}{507068}
+
+
+
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+\pagestyle{fancy}
+\lhead{\slshape Assignment \ASSNR}
+\rhead{\slshape\today}
+\lfoot{\textsl{\AuthorONE,\AuthorTWO,\AuthorTHREE}}
+\cfoot{ }
+\rfoot{Seite \thepage}
+
+\begin{document}
+\begin{titlepage}
+   \begin{center}
+       \vspace*{5cm}
+
+       \textbf{\Huge{Assignment \ASSNR}}
+
+       \vspace{0.5cm}
+        for {\large\textbf{Deep Reinforcement Learning WS2024}}
+        \vspace{0.75cm}
+
+       by \\
+        \textbf{\AuthorONE}\\
+        \vspace{0.125cm}
+       	\textbf{\MatNoONE}\\ 
+       	\vspace{0.25cm}
+        \textbf{\AuthorTWO}\\
+        \vspace{0.125cm}
+       	\textbf{\MatNoTWO}\\ 
+       	\vspace{0.25cm}
+        \textbf{\AuthorTHREE}\\
+        \vspace{0.125cm}
+        \textbf{\MatNoTHREE}\\ 
+        \vspace{0.25cm}
+       the \textbf{\today}
+
+       \vfill
+    
+    
+            
+   \end{center}
+\end{titlepage}
+
+\section{Excercise 1.}
+\end{document}
