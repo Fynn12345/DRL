@@ -105,4 +105,24 @@
 \end{titlepage}
 
 \section{Excercise 1.}
+\section{Excercise 2.}
+\subsection{Excercise 2a.}
+\begin{itemize}
+\item[1.] \textit{Reflection Question:} \\
+A random policy might be hindering in cases were a lot of different states with different actions exist. 
+The randomness would make it likely that complete exploration of all state-value pairs would take  a long time. 
+Therefore a policy where actions are only chosen from the set of unexplored actions for the state, until all actions have been chosen
+in this state, would encourage exploration.
+
+\item[2.] \textit{Analysis:} \\
+While state value estimation gives us a general grasp which states are desirable, it gives only litle information about the impact of the specific action in each situation, especially if theres a random factor to the actions as in this example.
+Using the obvious action that should go to next state of highest value, would lead here in a lot of cases to the player falling in to the lake. As evident in the next excercise the optimal action is the one that avoids the possibilty of falling into one ofe the holes.
+\end{itemize}
+\subsection{Excercise 2b.}
+\begin{itemize}
+\item[1.] \textit{Analysis:} \\
+As evident in in the last iteration the algorithm chooses  actions, that make it least likely to end up unvoluntarely in a state from which falling into the lake is likely
+
+
+\end{itemize}
 \end{document}
