@@ -21,8 +21,8 @@ class GridWorld(gym.Env):
     def __init__(
         self,
         reward: np.ndarray = reward_matrix,
-        start_state: np.ndarray = np.array([0, 0]),
-        upper_steps: np.floating = np.inf,
+        start_state: np.ndarray = np.array([2, 2]),
+        upper_steps: np.floating = 50,
     ) -> None:
         self.n_states = reward.size  # Total number of states in the grid
         self.n_actions = 4  # Number of possible actions (UP, RIGHT, DOWN, LEFT)
